@@ -18,7 +18,7 @@ export class ProductsListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSelect(p: Product) {
+  /* onSelect(p: Product) {
     this.productsEventEmitter.emit({type:ProductActionsTypes.GET_SELECTED_PRODUCTS,payload:p});
 
   }
@@ -34,6 +34,6 @@ export class ProductsListComponent implements OnInit {
 
   onActionEvent($event:ActionEvent){
     this.productsEventEmitter.emit($event);
-  }
+  } */
 
 }
